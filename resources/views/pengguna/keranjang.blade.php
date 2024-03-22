@@ -13,7 +13,7 @@
     <div class="site-section">
         <div class="container">
             <div class="row mb-5">
-                <div class="col-8" method="post">
+                <div class="col-lg-8 col-12" method="post">
                     @if (session('status'))
                         <div class="alert alert-danger">
                             {{ session('status') }}
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-12">
                     <div class="row">
                         <div class="col-md-6">
                             <h3 class="text-black">Total bayar</h3>
