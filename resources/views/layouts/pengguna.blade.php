@@ -34,7 +34,7 @@
                             </div>
                         </div>
 
-                        <div class="col-6 col-md-4 order-3 order-md-3 text-right">
+                        <div class="col-12 col-md-4 order-3 order-md-3 text-right">
                             <div class="site-top-icons">
                                 <ul>
 

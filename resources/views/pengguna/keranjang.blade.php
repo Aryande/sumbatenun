@@ -13,7 +13,7 @@
     <div class="site-section">
         <div class="container">
             <div class="row mb-5">
-                <div class="col-lg-8 col-12" method="post">
+                <div class="col-lg-8 col-12 table-responsive" method="post">
                     @if (session('status'))
                         <div class="alert alert-danger">
                             {{ session('status') }}
@@ -47,7 +47,7 @@
                                 </tr>
                             @empty
                                 <tr>
-                                    <td>Keranjang Masih Kosong</td>
+                                    <td colspan="5">Keranjang Masih Kosong</td>
                                 </tr>
                             @endforelse
                         </tbody>
