@@ -28,7 +28,7 @@
                                         <td>{{ $order->id }}</td>
                                         <td>{{ \Carbon\carbon::parse($order->created_at)->format('l m-d-Y') }}</td>
                                         <td>Rp{{ number_format($order->totalbayar) }}</td>
-                                        <td><a href="{{ route('riwayatshow', $order) }}" class="btn-sm btn btn-success">
+                                        <td><a href="{{ route('riwayatshow', $order) }}" class="btn-sm btn btn-success" style="color: rgb(255, 255, 255); background:rgb(7, 151, 33)">
                                                 Lihat
                                                 detail</a></td>
                                     </tr>

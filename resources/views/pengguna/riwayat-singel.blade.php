@@ -24,7 +24,7 @@
                                             enctype="multipart/form-data">
                                             @csrf
                                             <div class="d-flex">
-                                                <button type="submit" class="btn btn-success">
+                                                <button type="submit" class="btn btn-success " style="color: rgb(255, 255, 255); background:rgb(7, 151, 33)">
                                                     Konfirmasi Bayar
                                                 </button>
                                                 <div class="custom-file ml-3">
@@ -99,7 +99,7 @@
                                 <div class="invoice-body">
                                     <!-- Row start -->
                                     <div class="row gutters">
-                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <div class="col-lg-12 col-md-12 col-sm-12" style="color: rgb(62, 62, 62)">
                                             <div class="table-responsive">
                                                 <table class="table custom-table m-0">
                                                     <thead>
@@ -119,8 +119,8 @@
                                                             </tr>
                                                         @endforeach
                                                         <tr>
-                                                            <td colspan="2">
-                                                                <h5 class="text-success"><strong>Total
+                                                            <td colspan="2" >
+                                                                <h5 class="text-success" ><strong>Total
                                                                         Bayar</strong>
                                                                 </h5>
                                                             </td>

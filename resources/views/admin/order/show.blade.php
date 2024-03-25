@@ -145,7 +145,7 @@
                 display: inline-block;
                 font-size: 1.6rem;
                 font-weight: 700;
-                color: #2e323c;
+                color: #042472;
             }
             .invoice-container .invoice-header .invoice-logo img {
                 max-width: 130px;
@@ -240,7 +240,7 @@
                 margin-bottom: 1rem;
             }
             .text-success {
-                color: #00bb42 !important;
+                color: #383e3a !important;
             }
             .text-muted {
                 color: #9fa8b9 !important;

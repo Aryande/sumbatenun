@@ -57,7 +57,7 @@
                             <div class="row mb-5">
                                 <div class="col-md-6">
                                     <a href="{{ route('katalog') }}"
-                                        class="btn btn-outline-primary btn-sm btn-block">Cari
+                                        class="btn btn-outline-primary btn-sm btn-block" style="color: rgb(255, 255, 255); background:#7971ea">Cari
                                         Produk Lain </a>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@
                             <h3 class="text-black">Rp. {{ number_format($totalBayar) }}</h3>
                         </div>
                         @if ($totalBayar > 0)
-                            <a href="{{ route('checkout') }}" class="btn btn-primary btn-sm pl-3 btn-block">Order</a>
+                            <a href="{{ route('checkout') }}" class="btn btn-primary btn-sm pl-3 btn-block" style="color: rgb(255, 255, 255); background:#7971ea">Order</a>
                         @endif
                     </div>
                 </div>
