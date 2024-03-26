@@ -62,7 +62,7 @@
                                                 <span aria-hidden="true">×</span>
                                             </button>
                                         </div>
-                                        <div class="modal-body">Produk {{ $produk->namaproduk }} akan dihpaus</div>
+                                        <div class="modal-body">Produk {{ $produk->namaproduk }} akan dihapus</div>
                                         <div class="modal-footer">
                                             <form action="{{ route('produk.destroy',$produk) }}" method="post">
                                                 @csrf
